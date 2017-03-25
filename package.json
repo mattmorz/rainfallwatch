@@ -1,0 +1,41 @@
+{
+  "name": "rainfall-watch-caraga",
+  "version": "1.0.0",
+  "description": "node server.js",
+  "main": "",
+  "scripts": {
+    "start": "node server.js",
+    "postinstall": "webpack -p"
+  },
+  "author": "matt morales",
+  "license": "ISC",
+  "dependencies": {
+    "awesome-typescript-loader": "^3.0.5",
+    "babel-cli": "^6.23.0",
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.4.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "css-loader": "^0.26.4",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "^0.10.1",
+	"highcharts": "^5.0.9",
+    "imports-loader": "^0.7.1",
+    "jquery": "^3.1.1",
+    "leaflet": "^1.0.3",
+    "moment": "^2.17.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "redux": "^3.0.0",
+    "style-loader": "^0.13.2",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.2.1",
+    "xhr": "^2.4.0"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^2.4.1",
+    "webpack-hot-middleware": "^2.17.1"
+  }
+}
